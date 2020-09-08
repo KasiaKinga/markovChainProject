@@ -1,0 +1,74 @@
+body {
+  background-color: gray;
+  color: black;
+  font-family: "Fjalla One", Arial;
+}
+
+h1 {
+  font-size: 3em;
+  overflow: break;
+  border: 0px;
+}
+
+.backsheet {
+  width: 70%;
+  min-width: 30%;
+  margin: 3% auto;
+  display: block;
+  height: 90vh;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 40px;
+  text-align: center;
+  overflow: auto;
+}
+
+.choice {
+  padding: 10px;
+  font-family: monospace;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  font-size: 1em;
+  color: #141c3a;
+  font-family: monospace;
+  border-style: line;
+  overflow: hidden;
+  position: relative;
+}
+
+p2 {
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+  border: 3px solid gray;
+  min-width: 380px;
+  min-height: 150px; 
+  margin-top: 20px;
+  border-radius: 15px;
+}
+
+.input {
+  display: block;
+  text-align: center;
+  margin: 5px;
+  font-size: 16px;
+}
+
+#button {
+  width: 200px;
+  height: 30px;
+  border: none;
+  font-size: 20px;
+  background-color: #141c3a;
+  color: white;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: monospace;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}

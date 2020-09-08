@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Poem Generator</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first JS Script</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class=backsheet>
+    <h1>Create a poem</h1>
+
+    <div>
+        <label class="input" style="font-family:monospace">Paste text</label> 
+        <textarea id="extra" name="extra" rows="5" cols="50"></textarea>
+    </div>
+
+    <div class="choice">
+        <label for="number">Number of lines</label>
+        <input type="number" min="1" max="20" step="1" name="numOfLines">
+        <label for="number">Number of words</label>
+        <input type="number" min="1" max="20" step="1" name="numOfWords">  
+    </div>
+    <br>
+    <button id='button'>Generate Poem</button>
+        
+    <div class="container">
+        <p2>Your poem will appear here..</p2>
+    </div>
+        
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
+
+
